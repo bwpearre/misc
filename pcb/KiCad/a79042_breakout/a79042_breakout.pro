@@ -1,4 +1,4 @@
-update=Monday, July 18, 2016 'PMt' 04:25:21 PM
+update=Tuesday, July 19, 2016 'PMt' 12:09:04 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -58,4 +58,4 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
-LibName30=/Users/bwpearre/r/lib/lbr/con-omnetics
+LibName30=/Users/bwpearre/v/misc/pcb/KiCad/lbr/con-omnetics
