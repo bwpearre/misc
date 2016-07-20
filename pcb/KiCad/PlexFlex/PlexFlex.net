@@ -1,7 +1,7 @@
 (export (version D)
   (design
-    (source /Users/bwpearre/Documents/PlexFlex/PlexFlex.sch)
-    (date "Friday, July 15, 2016 'PMt' 04:29:54 PM")
+    (source /Users/bwpearre/v/misc/pcb/KiCad/PlexFlex/PlexFlex.sch)
+    (date "Tuesday, July 19, 2016 'PMt' 12:34:10 PM")
     (tool "Eeschema 4.0.2-stable")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -53,7 +53,7 @@
         (pin (num 18) (name p18) (type BiDi)))))
   (libraries
     (library (logical con-omnetics)
-      (uri /Users/bwpearre/r/lib/lbr/con-omnetics.lib)))
+      (uri /Users/bwpearre/v/misc/pcb/KiCad/lbr/con-omnetics.lib)))
   (nets
     (net (code 1) (name "Net-(REF1-Pad12)")
       (node (ref REF2) (pin 17))
