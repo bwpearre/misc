@@ -66,6 +66,28 @@ F 3 "" H 1800 2250 60  0000 C CNN
 	1    1950 2350
 	1    0    0    -1  
 $EndComp
+$Comp
+L omnetics_a79040 C1
+U 1 1 57A11793
+P 6350 1700
+F 0 "C1" H 6200 1600 60  0000 C CNN
+F 1 "omnetics_a79040" H 6200 1700 60  0000 C CNN
+F 2 "ugly:a79040" H 6200 1600 60  0001 C CNN
+F 3 "" H 6200 1600 60  0000 C CNN
+	1    6350 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L microphone_knowles_sph1642ht5h-1_revB U1
+U 1 1 57A2142B
+P 5150 2500
+F 0 "U1" H 5150 2500 60  0000 C CNN
+F 1 "microphone_knowles_sph1642ht5h-1_revB" H 4750 3250 60  0000 C CNN
+F 2 "ugly:microphone_knowles_sph1642ht5h-1_revB" H 5150 2500 60  0001 C CNN
+F 3 "" H 5150 2500 60  0000 C CNN
+	1    5150 2500
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
 	1600 3450 2200 3450
 Wire Wire Line
@@ -210,4 +232,47 @@ Wire Wire Line
 	2500 4300 2500 3550
 Wire Wire Line
 	2500 3550 2600 3550
+Wire Wire Line
+	4950 2000 5700 2000
+Connection ~ 5700 1900
+Wire Wire Line
+	5700 2100 4950 2100
+Connection ~ 5700 2000
+Wire Wire Line
+	5700 2300 4950 2300
+Connection ~ 5700 2100
+Wire Wire Line
+	4950 2200 5800 2200
+NoConn ~ 6000 2200
+NoConn ~ 6000 2300
+NoConn ~ 6000 2400
+NoConn ~ 6000 2500
+NoConn ~ 6000 2600
+NoConn ~ 6000 2700
+NoConn ~ 6000 3200
+NoConn ~ 6000 3300
+NoConn ~ 6000 3400
+NoConn ~ 6000 3500
+NoConn ~ 6000 3600
+Wire Wire Line
+	4950 1900 5700 1900
+Connection ~ 5700 2300
+Wire Wire Line
+	5800 2200 5800 2900
+Wire Wire Line
+	5800 2900 6000 2900
+Wire Wire Line
+	4950 2400 5600 2400
+Wire Wire Line
+	5600 2400 5600 3100
+Wire Wire Line
+	5600 3100 6000 3100
+NoConn ~ 6000 1900
+NoConn ~ 6000 2000
+NoConn ~ 6000 2100
+Wire Wire Line
+	6000 2800 5700 2800
+Wire Wire Line
+	5700 2800 5700 1900
+NoConn ~ 6000 3000
 $EndSCHEMATC
